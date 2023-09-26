@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.bigFont{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.commonSection{
+    /* max-height: 100vh; */
+}
+
+.animated{
+    animation:up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.customMargin{
+    margin-top: 180px;
+}
+
+.customText{
+    font-size: 15px;
+}
+
+.margTop{
+    padding-bottom: 100px;
+    /* height: 100vh; */
+}
+
+.backgrey{
+    background-color: #f8f9fa;
+
+}
+
+.customSpacing{
+margin-top: 50px;
+padding-bottom: 50px;
+}
+
+.custom-expert{
+    /* margin-top: 50px; */
+    font-weight: 600;
+    font-size: 40px;
+}
+.custom-margin{
+    margin-top: 50px;
+}
+
+
+.customP{
+    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.customCard{
+    width:200px;
+}
+
+.card-title{
+    font-size: 17px;
+    height: 40px;
+    font-weight: 600;
+}
+.card-text{
+    height: 210px;
+}
+
+.custom-card{
+    width:300px;
+}
+.custom-card:hover{
+    transition: 0.2ms;
+    /* transform: scale(1.025); */
+    background-color: #f8f9fa;
+}
+.btn{
+    font-weight: 600;
+}
+.custom-card:hover .btnHover{
+    transition: 0.2ms;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.img-dim{
+    width:280px;
+    height:180px
+}
+
+.customCard:hover{
+    transition: 0.2ms;
+    transform: scale(1.025);
+}
+
+/* accordian */
+.accordTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.accordBody{
+    font-size: 15px;
+}
+
+.mainSection{
+    background: url(../images/back4.png);
+    width: 100%;
+}
+.topFooter{
+    padding: 20px 0;
+    height:auto
+}
+
+.customSpac{
+    margin: 100px 0;
+}
+
+.custContact:hover{
+    color: #009ddc;
+}
+
+/* services page */
+.custImg{
+border-radius: 10px;
+padding: 0;
+}
+.cust-row{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.cardStyle{
+    max-width: 540px;
+    border-radius: 10px;
+}
+.cardStyle:hover{
+    transition: 0.2ms;
+    transform: scale(1.025);
+    background-color: #f8f9fa;
+}
+.custTitle{
+    font-weight: 600;
+}
+.custPara{
+    font-weight: 400;
+    font-size: 13px;
+}
+.textSize{
+    font-size: 15px;
+}
+.custMessage{
+    display: block;
+}
+.custMessage:hover{
+    background-color: white;
+    color: #009ddc;
+    border: 1px solid black;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+/* navbar */
+.marg {
+    margin-left: auto;
+}
+
+.topHeader {
+    background-color: #009ddc;
+    color: white;
+}
+/* .customA:hover{
+    color: #009ddc;
+} */
+
+/* .navbar-custom {
+    background-color: teal;
+    color: white;
+} */
+/* Modify brand and text color */
+
+.customBrand {
+    color: #009ddc;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navbar-custom .navbar-text {
+    color: #009ddc;
+}
+
+.bigFont {
+    font-size: 15px;
+}
+
+.customA {
+    color: black;
+    font-size: 15px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* footer Section */
+.footerSection{
+    background: url(../images/booksBackground1.jpg);
+    color: white;
+}
+
+.cust-spacing{
+    padding: 50px 0;
+}
+
+.finalFooter{
+    background-color: #009ddc;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+/* loader styling */
+
+.loaderStyle{
+    top:0px;
+    left:0px;
+    position: fixed;
+    text-align: center;
+    background-color: #f8f9fa;
+    height:100%;
+    width: 100%;
+    z-index: 1050;
+}
+.customAlign{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    width: 50px;
+    height: 50px;
+}
+
+.topFooter{
+    background-color: white;
+    height: 50px;
+}
+
+.customIcons{
+    margin-left: 50px;
+}
+.customIcons:hover{
+    /* background-color: #009ddc; */
+    color: aqua;
+}
