@@ -37,55 +37,69 @@ function Home() {
                             </div>
                         </div>
                         <div className='row justify-content-around'>
-                            <div className="card col-sm-2 shadow customCard me-4 mt-3">
-                                <div className="card-body">
-                                    <h5 className="card-title">Mediation</h5>
-                                    <p className="card-text">Our seasoned mediators create an inclusive environment where
-                                        parties can openly communicate and collaboratively seek resolutions. We guide
-                                        discussions with empathy and finesse, fostering an atmosphere of trust and
-                                        understanding.</p>
-                                    <a href="#" className="btn btn-primary mx-auto">Read More</a>
+                            <div className="card cardExpr shadow col-sm-10 col-md-5 col-lg-2 mt-3">
+                                <div className='card-header text-center bg-info bg-gradient bg-opacity-75 align-items-center'>
+                                    <h5>Mediation</h5>
+                                </div>
+                                <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
+                                    parties can openly communicate and collaboratively seek resolutions. We guide
+                                    discussions with empathy and finesse, fostering an atmosphere of trust and
+                                    understanding.
+                                </p>
+                                <div className='card-footer bg-info bg-opacity-50 pt-3'>
+                                    <h4 className='a text-center clrw'><a className='btn btn-primary' href='/'>Go Somewhere</a></h4>
                                 </div>
                             </div>
-                            <div className="card col-sm-2 shadow customCard me-4 mt-3">
-                                <div className="card-body">
-                                    <h5 className="card-title">Arbitration</h5>
-                                    <p className="card-text">Our arbitrators, renowned for their integrity and impartiality,
-                                        deliver swift and binding decisions that meet the highest standards of legality.
-                                        This method offers parties a private and streamlined alternative to courtroom
-                                        proceedings.</p>
-                                    <a href="#" className="btn btn-primary">Read More</a>
+                            <div className="card cardExpr shadow col-sm-10 col-md-5 col-lg-2 mt-3">
+                                <div className='card-header text-center bg-success bg-gradient bg-opacity-75 align-items-center'>
+                                    <h5>Arbitration</h5>
+                                </div>
+                                <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
+                                    parties can openly communicate and collaboratively seek resolutions. We guide
+                                    discussions with empathy and finesse, fostering an atmosphere of trust and
+                                    understanding.
+                                </p>
+                                <div className='card-footer xyz bg-success bg-opacity-50 pt-3'>
+                                    <h4 className='a text-center tclrd'><a className='btn btn-primary' href='/'>Go Somewhere</a></h4>
                                 </div>
                             </div>
-                            <div className="card col-sm-2 shadow customCard me-4 mt-3">
-                                <div className="card-body">
-                                    <h5 className="card-title">Online Dispute Resolution (ODR)</h5>
-                                    <p className="card-text">Embracing the digital era, our firm pioneers
-                                        cutting-edge ODR solutions. Our secure online platform offers parties the
-                                        convenience of resolving disputes remotely, promoting accessibility, and
-                                        reducing barriers to justice.
-                                    </p>
-                                    <a href="#" className="btn btn-primary">Read More</a>
+                            <div className="card cardExpr shadow col-sm-10 col-md-5 col-lg-2 mt-3">
+                                <div className='card-header text-center bg-warning bg-gradient bg-opacity-75 align-items-center'>
+                                    <h5>Online Dispute Resulation (ODR)</h5>
+                                </div>
+                                <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
+                                    parties can openly communicate and collaboratively seek resolutions. We guide
+                                    discussions with empathy and finesse, fostering an atmosphere of trust and
+                                    understanding.
+                                </p>
+                                <div className='card-footer bg-warning bg-opacity-50 pt-3'>
+                                    <h4 className='a text-center clrw'><a className='btn btn-primary' href='/'>Go Somewhere</a></h4>
                                 </div>
                             </div>
-                            <div className="card col-sm-2 shadow customCard me-4 mt-3">
-                                <div className="card-body">
-                                    <h5 className="card-title">Negotiation Support</h5>
-                                    <p className="card-text">Our skilled negotiators craft strategies that balance
-                                        assertiveness with compromise, ensuring our clients are well-represented at the
-                                        negotiation table. We advocate for favorable outcomes while prioritizing
-                                        relationship preservation.</p>
-                                    <a href="#" className="btn btn-primary">Read More</a>
+                            <div className="card cardExpr shadow col-sm-10 col-md-5 col-lg-2 mt-3">
+                                <div className='card-header text-center bg-secondary bg-gradient bg-opacity-75 align-items-center'>
+                                    <h5>Negotiation Support</h5>
+                                </div>
+                                <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
+                                    parties can openly communicate and collaboratively seek resolutions. We guide
+                                    discussions with empathy and finesse, fostering an atmosphere of trust and
+                                    understanding.
+                                </p>
+                                <div className='card-footer bg-secondary bg-opacity-50 pt-3'>
+                                    <h4 className='a text-center clrw'><a className='btn btn-primary' href='/'>Go Somewhere</a></h4>
                                 </div>
                             </div>
-                            <div className="card col-sm-2 customCard shadow me-4 mt-3">
-                                <div className="card-body">
-                                    <h5 className="card-title">Training and Workshops</h5>
-                                    <p className="card-text">We offer educational programs that empower clients
-                                        to proactively manage disputes. Our workshops equip individuals and
-                                        organizations with essential conflict resolution skills, fostering a culture of
-                                        collaboration and understanding.</p>
-                                    <a href="#" className="btn btn-primary">Read More</a>
+                            <div className="card cardExpr shadow col-sm-10 col-md-5 col-lg-2 mt-3">
+                                <div className='card-header text-center bg-danger bg-gradient bg-opacity-75 align-items-center'>
+                                    <h5> Training and Workshops</h5>
+                                </div>
+                                <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
+                                    parties can openly communicate and collaboratively seek resolutions. We guide
+                                    discussions with empathy and finesse, fostering an atmosphere of trust and
+                                    understanding.
+                                </p>
+                                <div className='card-footer xyz bg-danger bg-opacity-50 pt-3'>
+                                    <h4 className=' a text-center tclrd'><a className='btn btn-primary' href='/'>Go Somewhere</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -101,47 +115,48 @@ function Home() {
                         </div>
                     </div>
                     <div className='row justify-content-around'>
-                        <div className="card mt-5 shadow custom-card">
+                        <div className="card col-sm-10 col-md-5 col-lg-3 mt-5 shadow custom-card ">
                             <img src={corporate} className="card-img-top mt-3 img-dim" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Commercial and Business</h5>
-                                <a href="#" className="btn btn-primary btnHover">Get Details</a>
+                                <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
                             </div>
                         </div>
-                        <div className="card mt-5 shadow custom-card">
+                        <div className="card col-sm-10 col-md-5 col-lg-3 mt-5 shadow custom-card ">
                             <img src={technology} className="card-img-top mt-3 img-dim" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Technology and Intellectual Property</h5>
-                                <a href="#" className="btn btn-primary btnHover">Get Details</a>
+                                <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
                             </div>
                         </div>
-                        <div className="card mt-5 shadow custom-card">
+                        <div className="card col-sm-10 col-md-5 col-lg-3 mt-5 shadow custom-card ">
                             <img src={employment} className="card-img-top mt-3 img-dim" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Employment and Labor</h5>
-                                <a href="#" className="btn btn-primary btnHover">Get Details</a>
+                                <h5 className="card-title">Commercial and Business</h5>
+                                <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
                             </div>
                         </div>
-                        <div className="card mt-5 shadow custom-card">
-                            <img src={construction} className="card-img-top mt-3 img-dim" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Real Estate and Construction</h5>
-                                <a href="#" className="btn btn-primary btnHover">Get Details</a>
-                            </div>
-                        </div>
-                        <div className="card mt-5 shadow custom-card">
+                    </div>
+                    <div className='row justify-content-around'>
+                        <div className="card col-sm-10 col-md-5 col-lg-3 mt-5 shadow custom-card ">
                             <img src={matrimonial} className="card-img-top mt-3 img-dim" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Family and Matrimonial
-                                </h5>
-                                <a href="#" className="btn btn-primary btnHover">Get Details</a>
+                                <h5 className="card-title">Matrimonial</h5>
+                                <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
                             </div>
                         </div>
-                        <div className="card mt-5 shadow custom-card">
+                        <div className="card col-sm-10 col-md-5 col-lg-3 mt-5 shadow custom-card ">
                             <img src={pharma} className="card-img-top mt-3 img-dim" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Healthcare and Pharmaceuticals</h5>
-                                <a href="#" className="btn btn-primary btnHover">Get Details</a>
+                                <h5 className="card-title">Pharmaceutical</h5>
+                                <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
+                            </div>
+                        </div>
+                        <div className="card col-sm-10 col-md-5 col-lg-3 mt-5 shadow custom-card ">
+                            <img src={construction} className="card-img-top mt-3 img-dim" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Construction</h5>
+                                <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
                             </div>
                         </div>
                     </div>
@@ -155,7 +170,7 @@ function Home() {
                                 <h1 className='custom-margin'>Our Differentiators</h1>
                             </div>
                         </div>
-                        <div className='row col-sm-12 mt-5'>
+                        <div className='row col-sm-12 mt-5 justify-content-around'>
                             <div className="accordion" id="accordionExample">
                                 <div className="accordion-item">
                                     <h2 className="accordion-header">
