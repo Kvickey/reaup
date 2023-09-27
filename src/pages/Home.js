@@ -37,9 +37,9 @@ function Home() {
                             </div>
                         </div>
                         <div className='row justify-content-around'>
-                            <div className='col-sm-2'>
-                                <div className="card cardExpr shadow mt-3 ">
-                                    <div className='card-header text-center bg-info bg-gradient bg-opacity-75 align-items-center'>
+                            <div className='col-sm-4'>
+                                <div className="card cardExpr shadow mt-5 ">
+                                    <div className='card-header text-center bg-primary'>
                                         <h5>Mediation</h5>
                                     </div>
                                     <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
@@ -47,14 +47,14 @@ function Home() {
                                         discussions with empathy and finesse, fostering an atmosphere of trust and
                                         understanding.
                                     </p>
-                                    <div className='card-footer bg-info bg-opacity-50 pt-3'>
-                                        <h4 className='a text-center clrw'><a className='btn btn-primary' href='/'>Go Somewhere</a></h4>
+                                    <div className='card-footer pt-3'>
+                                        <h4 className='a text-center clrw'><a className='btn d-block' href='/'>Go Somewhere</a></h4>
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-sm-2'>
-                                <div className="card cardExpr shadow  mt-3 ">
-                                    <div className='card-header text-center bg-success bg-gradient bg-opacity-75 align-items-center'>
+                            <div className='col-sm-4'>
+                                <div className="card cardExpr shadow  mt-5 ">
+                                    <div className='card-header text-center bg-primary'>
                                         <h5>Arbitration</h5>
                                     </div>
                                     <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
@@ -62,14 +62,14 @@ function Home() {
                                         discussions with empathy and finesse, fostering an atmosphere of trust and
                                         understanding.
                                     </p>
-                                    <div className='card-footer xyz bg-success bg-opacity-50 pt-3'>
-                                        <h4 className='a text-center tclrd'><a className='btn btn-primary' href='/'>Go Somewhere</a></h4>
+                                    <div className='card-footer pt-3'>
+                                        <h4 className='a text-center tclrd'><a className='btn d-block' href='/'>Go Somewhere</a></h4>
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-sm-2'>
-                                <div className="card cardExpr shadow  mt-3 ">
-                                    <div className='card-header text-center bg-warning bg-gradient bg-opacity-75 align-items-center'>
+                            <div className='col-sm-4'>
+                                <div className="card cardExpr shadow  mt-5 ">
+                                    <div className='card-header text-center bg-primary'>
                                         <h5>Online Dispute Resulation (ODR)</h5>
                                     </div>
                                     <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
@@ -77,14 +77,14 @@ function Home() {
                                         discussions with empathy and finesse, fostering an atmosphere of trust and
                                         understanding.
                                     </p>
-                                    <div className='card-footer bg-warning bg-opacity-50 pt-3'>
-                                        <h4 className='a text-center clrw'><a className='btn btn-primary' href='/'>Go Somewhere</a></h4>
+                                    <div className='card-footer pt-3'>
+                                        <h4 className='a text-center clrw'><a className='btn d-block' href='/'>Go Somewhere</a></h4>
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-sm-2'>
-                                <div className="card cardExpr shadow mt-3 ">
-                                    <div className='card-header text-center bg-secondary bg-gradient bg-opacity-75 align-items-center'>
+                            <div className='col-sm-4'>
+                                <div className="card cardExpr shadow mt-5 ">
+                                    <div className='card-header text-center bg-primary'>
                                         <h5>Negotiation Support</h5>
                                     </div>
                                     <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
@@ -92,14 +92,14 @@ function Home() {
                                         discussions with empathy and finesse, fostering an atmosphere of trust and
                                         understanding.
                                     </p>
-                                    <div className='card-footer bg-secondary bg-opacity-50 pt-3'>
-                                        <h4 className='a text-center clrw'><a className='btn btn-primary' href='/'>Go Somewhere</a></h4>
+                                    <div className='card-footer  pt-3'>
+                                        <h4 className='a text-center clrw'><a className='btn d-block ' href='/'>Go Somewhere</a></h4>
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-sm-2'>
-                                <div className="card cardExpr shadow mt-3">
-                                    <div className='card-header text-center bg-danger bg-gradient bg-opacity-75 align-items-center'>
+                            <div className='col-sm-4'>
+                                <div className="card cardExpr shadow mt-5">
+                                    <div className='card-header text-center bg-primary'>
                                         <h5> Training and Workshops</h5>
                                     </div>
                                     <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
@@ -107,8 +107,23 @@ function Home() {
                                         discussions with empathy and finesse, fostering an atmosphere of trust and
                                         understanding.
                                     </p>
-                                    <div className='card-footer xyz bg-danger bg-opacity-50 pt-3'>
-                                        <h4 className=' a text-center tclrd'><a className='btn btn-primary' href='/'>Go Somewhere</a></h4>
+                                    <div className='card-footer pt-3'>
+                                        <h4 className=' a text-center tclrd'><a className='btn d-block ' href='/'>Go Somewhere</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-sm-4'>
+                                <div className="card cardExpr shadow mt-5">
+                                    <div className='card-header text-center bg-primary'>
+                                        <h5> Conciliation</h5>
+                                    </div>
+                                    <p className="card-text p-2 my-2">Our seasoned mediators create an inclusive environment where
+                                        parties can openly communicate and collaboratively seek resolutions. We guide
+                                        discussions with empathy and finesse, fostering an atmosphere of trust and
+                                        understanding.
+                                    </p>
+                                    <div className='card-footer pt-3'>
+                                        <h4 className=' a text-center tclrd'><a className='btn d-block ' href='/'>Go Somewhere</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +145,7 @@ function Home() {
                                 <img src={corporate} className="card-img-top mt-3 img-dim" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Commercial and Business</h5>
-                                    <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
+                                    <a href="#" className="btn custBtn  btnHover">Get Details</a>
                                 </div>
                             </div>
                         </div>
@@ -139,7 +154,7 @@ function Home() {
                                 <img src={technology} className="card-img-top mt-3 img-dim" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Technology and Intellectual Property</h5>
-                                    <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
+                                    <a href="#" className="btn custBtn  btnHover">Get Details</a>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +163,7 @@ function Home() {
                                 <img src={employment} className="card-img-top mt-3 img-dim" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Commercial and Business</h5>
-                                    <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
+                                    <a href="#" className="btn custBtn  btnHover">Get Details</a>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +172,7 @@ function Home() {
                                 <img src={matrimonial} className="card-img-top mt-3 img-dim" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Matrimonial</h5>
-                                    <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
+                                    <a href="#" className="btn custBtn  btnHover">Get Details</a>
                                 </div>
                             </div>
                         </div>
@@ -166,7 +181,7 @@ function Home() {
                                 <img src={pharma} className="card-img-top mt-3 img-dim" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Pharmaceutical</h5>
-                                    <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
+                                    <a href="#" className="btn custBtn  btnHover">Get Details</a>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +190,7 @@ function Home() {
                                 <img src={construction} className="card-img-top mt-3 img-dim" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Construction</h5>
-                                    <a href="#" className="btn custBtn btn-info btnHover">Get Details</a>
+                                    <a href="#" className="btn custBtn  btnHover">Get Details</a>
                                 </div>
                             </div>
                         </div>

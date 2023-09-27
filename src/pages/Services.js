@@ -27,7 +27,7 @@ function Services() {
               <div className="card  mt-5 shadow cardStyle mx-auto" >
                 <div className="row">
                   <div className="col-sm-6">
-                    <img src={mediation} class="img-fluid rounded-start m-2 custImg " alt="..." />
+                    <img src={mediation} class="custImg " alt="..." />
                   </div>
                   <div className="col-sm-6">
                     <div className="card-body">
@@ -42,7 +42,7 @@ function Services() {
               <div className="card mt-5 shadow cardStyle mx-auto" >
                 <div className="row">
                   <div className="col-sm-6">
-                    <img src={arbitration} class="img-fluid rounded-start m-2 custImg " alt="..." />
+                    <img src={arbitration} class="custImg " alt="..." />
                   </div>
                   <div className="col-sm-6">
                     <div className="card-body">
@@ -59,7 +59,7 @@ function Services() {
               <div className="card  mt-5 shadow cardStyle mx-auto" >
                 <div className="row">
                   <div className="col-sm-6">
-                    <img src={odr} class="img-fluid rounded-start m-2 custImg " alt="..." />
+                    <img src={odr} class="custImg " alt="..." />
                   </div>
                   <div className="col-sm-6">
                     <div className="card-body">
@@ -74,7 +74,7 @@ function Services() {
               <div className="card mt-5 shadow cardStyle mx-auto" >
                 <div className="row">
                   <div className="col-sm-6">
-                    <img src={negotiation} class="img-fluid rounded-start m-2 custImg " alt="..." />
+                    <img src={negotiation} class="custImg" alt="..." />
                   </div>
                   <div className="col-sm-6">
                     <div className="card-body">
@@ -91,7 +91,7 @@ function Services() {
               <div className="card  mt-5 shadow cardStyle mx-auto" >
                 <div className="row">
                   <div className="col-sm-6">
-                    <img src={training} class="img-fluid rounded-start m-2 custImg " alt="..." />
+                    <img src={training} class="custImg" alt="..." />
                   </div>
                   <div className="col-sm-6">
                     <div className="card-body">
@@ -106,7 +106,8 @@ function Services() {
               <div className="card mt-5 shadow cardStyle mx-auto" >
                 <div className="row">
                   <div className="col-sm-6">
-                    <img src={conciliation} class="img-fluid rounded-start m-2 custImg " alt="..." />
+                    <img src={conciliation} class="custImg " alt="..." />
+                    {/* <img src={conciliation} class="img-fluid rounded-start m-2 custImg " alt="..." /> */}
                   </div>
                   <div className="col-sm-6">
                     <div className="card-body">

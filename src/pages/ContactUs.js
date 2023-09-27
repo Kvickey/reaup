@@ -46,7 +46,7 @@ console.log(data);
             </div>
           </div>
           <div className='row'>
-            <div className='col-sm-12 d-flex justify-content-center animate__animated animate__fadeInUp'>
+            <div className='col-sm-10 d-flex justify-content-center mx-auto animate__animated animate__fadeInUp'>
               <p className='mt-3 me-5 ms-5 custContact'><FaMobile size={40} /> <strong className='ms-3'>1234567890</strong></p>
               <p className='mt-3 me-5 ms-5 custContact'><FaEnvelope size={40} /><strong className='ms-3'>rea@gmail.com</strong></p>
               <p className='mt-3 ms-5 me-5 custContact'><FaAddressBook size={40} /><strong className='ms-3'>www.rea.com</strong></p>

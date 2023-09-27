@@ -42,9 +42,13 @@ function Navbar() {
                                     <li class="nav-item">
                                         <a class="nav-link customA pe-5" aria-current="page" href="/contactus">Contact us</a>
                                     </li>
-                                    <form >
+                                    <li class="nav-item">
+                                        {/* <a class="nav-link customA pe-5 btn btn-primary text-center" aria-current="page" href="/login">Login</a> */}
+                                        <Button class="btn btn-primary pe-5 custbtn" type="" onClick={handleClick}>Login</Button>
+                                    </li>
+                                    {/* <form >
                                         <button class="btn btn-primary" type="" onClick={handleClick}>Login</button>
-                                    </form>
+                                    </form> */}
                                 </ul>
                             </div>
                         </div>

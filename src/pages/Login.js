@@ -31,13 +31,13 @@ function Login() {
             <div className='container'>
                 <div className='row col-sm-5 mt-5 mx-auto '>
                     <div className='card card-body shadow customSpac ' >
-                        <h2 className='mx-auto'>Login</h2>
+                        <h2 className='mx-auto mt-3'>Login</h2>
                         <Form>
-                            <Form.Group className='mt-3' >
+                            <Form.Group className='mt-3 custForm mx-auto' >
                                 <Form.Label className='h5'>Username</Form.Label>
                                 <Form.Control type="text" onChange={handleChange} value={formData.userName} name='userName' />
                             </Form.Group>
-                            <Form.Group className='mt-3 mb-3'>
+                            <Form.Group className='my-3 custForm mx-auto'>
                                 <Form.Label className='h5'>Password</Form.Label>
                                 <Form.Control type="password" onChange={handleChange} value={formData.password} name='password' />
                             </Form.Group>
